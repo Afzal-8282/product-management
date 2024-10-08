@@ -70,7 +70,7 @@ const CreatePage = () => {
                             onChange={(e) => setNewProduct({ ...newProduct, image: e.target.value })}
                         />
 
-                        <Button colorScheme='blue' onClick={handleAddProduct} w={'30%'}>
+                        <Button colorScheme='blue' onClick={handleAddProduct} >
                             Add Product
                         </Button>
 
